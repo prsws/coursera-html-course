@@ -2,14 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Module 3 Solution</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Module 3 Solution</h1>
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <p>Food, LLC</p>
+                </div>
+                <button type="button" class="navbar-toggle collapse visible-xs" data-toggle="collapse" data-target="#collapsable-nav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav hidden-sm hidden-md hidden-lg">
+                    <li class="text-center"><a href="#chicken">Chicken</a></li>
+                    <li class="text-center"><a href="#beef">Beef</a></li>
+                    <li class="text-center"><a href="#sushi">Sushi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<h1 class="text-center">Our Menu</h1>
+
+<div class="container">
+    <div id="content" class="row col-xs-12">
+        <h3 class="text-center"><a id="chicken" href="#">Chicken</a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lacinia libero, viverra semper felis. Sed turpis nibh, dapibus eget eros quis, sagittis iaculis dolor. Nullam imperdiet nisi sit amet tortor molestie, hendrerit condimentum nunc suscipit. In arcu lacus, vehicula eget lectus eu, porta finibus erat. Vivamus quis posuere enim, porttitor elementum lacus. Ut eu tempus urna. Donec turpis metus, efficitur id ex nec, facilisis interdum nunc. Etiam lacinia lectus vitae libero rhoncus, ac finibus nulla scelerisque. Praesent justo purus, pulvinar et luctus eget, ornare quis sem. Aliquam blandit eros quam, sed feugiat turpis lobortis vel. Etiam commodo lacus tempus orci suscipit condimentum. Donec faucibus elit at neque faucibus consectetur. Proin fringilla scelerisque sapien, non volutpat metus ultricies nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget lorem ac erat dignissim convallis sed laoreet dui. Curabitur interdum neque at felis sollicitudin convallis.</p>
+        <p>Quisque id libero laoreet, egestas est at, molestie velit. Aenean id nibh ut lectus aliquam molestie et ut felis. Duis semper posuere lectus at lacinia. Cras id blandit erat, ac luctus lectus. Ut pulvinar nibh lacus. Curabitur egestas eleifend magna, quis gravida purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elementum dolor ac nisl facilisis, vel bibendum est efficitur.</p>
+        <p>Vestibulum ut posuere urna. Fusce eleifend commodo nibh id suscipit. Mauris commodo libero a dignissim sagittis. Vivamus rutrum justo sed enim interdum iaculis. Nunc egestas consectetur nisi in pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc aliquet nisi eu leo mollis varius. Maecenas nec ipsum id neque ultrices dapibus sit amet in ipsum.</p> Pellentesque et est nec mi condimentum sodales placerat quis magna. Nulla lorem massa, dictum ac aliquam id, molestie non lacus. Etiam pretium pretium est, sed porta orci tincidunt non. Integer suscipit erat non diam fermentum blandit.
+
+        <h3 class="text-center"><a id="beef" href="#">Beef</a></h3>
+        <p>Ut feugiat placerat neque, a bibendum purus imperdiet vel. Nulla eleifend diam eget gravida ultricies. Sed quis sollicitudin tortor, a mattis nulla. Praesent in vehicula arcu. Pellentesque at feugiat lorem. Sed tristique eros eget hendrerit interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec urna lacus, commodo ut scelerisque eget, dictum nec turpis.</p>
+        <p>Fusce magna nisi, viverra sit amet augue vel, efficitur faucibus orci. Proin volutpat ullamcorper mauris, tempor molestie nisl fringilla eu. Pellentesque nec ligula dui. Aliquam id mauris sed nunc viverra varius sed placerat lacus. Nullam sit amet sem elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dignissim enim non sem placerat rutrum. In hac habitasse platea dictumst.</p>
+        <p>Praesent ac orci iaculis, porta massa sit amet, lacinia velit. Maecenas lobortis venenatis lorem sed aliquam. Integer mollis condimentum gravida. Pellentesque molestie, justo non mollis convallis, orci sem suscipit felis, eget mattis tellus odio non ante. Integer dictum sapien id eros ultrices iaculis. Vestibulum ultricies, erat ac aliquet pretium, lacus mi ultricies dui, vestibulum cursus tellus dolor id nulla. Fusce nunc nulla, interdum id sodales quis, tincidunt nec dolor. Nulla ac felis consequat, scelerisque elit finibus, semper arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere eros urna, aliquet elementum est tempus et. Donec placerat nibh vel vehicula posuere.</p>
+
+        <h3 class="text-center"><a id="sushi" href="#">Sushi</a></h3>
+        <p>Sed erat nunc, euismod ac convallis non, fringilla a risus. Integer dignissim et nisi sit amet rhoncus. Pellentesque in pharetra est. Nunc suscipit porttitor lectus, in porttitor augue varius a. Suspendisse sem nibh, cursus non consectetur vel, rutrum malesuada erat. Phasellus egestas eros nec lorem semper, vitae interdum tellus accumsan. Aliquam a purus sit amet elit dictum porta nec vel erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ac tempor nisi. Donec sed ligula nec orci vehicula ullamcorper feugiat eget nisl. Nullam ac quam quis felis dignissim gravida ac vitae risus. Nam bibendum tortor ac nunc lobortis consequat. Vivamus et scelerisque augue. Suspendisse nec tristique purus.</p>
+        <p>Aliquam erat volutpat. Sed semper consectetur justo, et vestibulum eros. Donec a cursus justo. Donec aliquam tortor lacus, ut imperdiet libero semper a. Proin ipsum magna, iaculis vitae velit et, gravida suscipit dolor. Proin eget risus quis felis sollicitudin pulvinar quis vulputate augue. Mauris pharetra at erat sed fermentum. Maecenas tincidunt nunc porttitor leo lacinia, ac venenatis nisl porta.</p>
+        <p>Mauris nec imperdiet ligula. Fusce ligula mi, feugiat in ornare quis, gravida sit amet libero. Etiam consectetur volutpat nisl in commodo. Aliquam eget libero pharetra, feugiat mauris sit amet, rhoncus ipsum. Etiam sollicitudin nibh eu turpis eleifend, vitae rhoncus metus tempus. Sed arcu nisl, convallis sit amet feugiat eget, fermentum et lectus. Donec a suscipit mauris. Vestibulum luctus aliquet libero ut sollicitudin. In placerat, felis sed condimentum ultrices, urna mi pellentesque sapien, ac egestas purus ligula eget quam. Duis fringilla libero non porttitor scelerisque. Maecenas eros nisi, tempor a efficitur eget, cursus at nisl. Vivamus luctus, nisi quis porttitor vehicula, ante turpis pulvinar felis, id placerat tortor massa nec mauris. Nulla ac euismod quam.</p>
+        <p>Curabitur vitae dictum ipsum, auctor pharetra ante. Cras porttitor ligula sit amet massa pellentesque pulvinar vel ac erat. Cras rhoncus in justo quis iaculis. Donec quis maximus risus, quis egestas orci. Nunc dui leo, condimentum at nisi eget, ultrices ullamcorper ex. Phasellus pretium, risus in imperdiet porttitor, nibh neque suscipit ipsum, id consequat risus mi eu leo. Etiam congue eget nibh eu hendrerit. Nullam sollicitudin in odio quis sagittis. Vivamus vitae metus ac risus laoreet semper.</p>
+    </div>
+</div>
+<script
+        src="http://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

@@ -1,0 +1,21 @@
+body {
+    font-size: 16px;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+#header-nav {
+    border-radius: 0;
+}
+div.navbar-brand {
+    font-size: 1.3em;
+}
+div#content {
+    background-color: lightgray;
+    margin: auto;
+}
+#collapsable-nav a {
+    color: #000;
+    background-color: lemonchiffon;
+    border-bottom: 1px;
+    border-color: black;
+}
